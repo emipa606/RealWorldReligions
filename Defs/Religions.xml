@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Christianity-->
+	<Religion.TraitDef_ReligionTrait>
+		<defName>ChristianReligion</defName>
+		<commonality>0.3</commonality>
+		<degreeDatas>
+			<li>
+				<label>Christian Faith</label>
+				<description>{PAWN_nameDef} believes in the Christian God.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Pyromaniac</li>		
+			<li>Abrasive</li>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+		</conflictingTraits>  
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+		<foreignReligions>
+			<li>SpaceSpiritsReligion</li>
+			<li>SerpentReligion</li>
+		</foreignReligions>    		
+	</Religion.TraitDef_ReligionTrait>
+</Defs>

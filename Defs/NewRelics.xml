@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--Christianity-->
+	<ThingDef ParentName="ReligionRelic">
+		<defName>ChristianReligion</defName>
+		<label>The Holy Cross</label>
+		<description>Relic of the Christian Religion</description>
+		<graphicData>
+			<texPath>Item/Resource/nRelics/HolyCross/HolyCross</texPath>
+			<graphicClass>Graphic_Single</graphicClass>  
+		</graphicData>    
+		<comps>
+			<li Class="Religion.CompProperties_CompRelic">
+				<religionTrait>ChristianReligion</religionTrait>
+			</li>
+		</comps>
+		<costStuffCount>200</costStuffCount>   
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Stony</li>
+			<li>Woody</li>
+		</stuffCategories>
+	</ThingDef>
+</Defs>
