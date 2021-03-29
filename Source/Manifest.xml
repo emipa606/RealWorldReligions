@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>RealReligions</identifier>
+  <version>1.0.1.0</version>
+  <dependencies>
+    <li>ReligionsofRimworld</li>
+  </dependencies>
+  <showCrossPromotions>true</showCrossPromotions>
+  <manifestUri>https://raw.githubusercontent.com/KuroNeko87/Real-Religions/master/About/Manifest.xml</manifestUri>
+</Manifest>

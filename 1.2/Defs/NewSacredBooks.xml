@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Christianity-->
+  <ThingDef ParentName="ReligionBookBase">
+    <defName>BookOfChristianReligion</defName>
+    <label>The Holy Bible</label>
+    <description>Christianity is a monotheistic faith based on the life and teachings of Jesus of Nazareth as described in the New Testament. Its adherents, known as Christians, believe that Jesus Christ is the Son of God and savior of all people, whose coming as the Messiah was prophesied in the Old Testament. Most, but not all Christians get baptized, celebrate the Lord's Supper, pray the Lord's Prayer and other prayers, have clergy, and attend group worship services.</description>
+    <graphicData>
+      <texPath>Item/Resource/nBooks/Bible/Bible</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <comps>
+      <li Class="Religion.CompProperties_CompReligionBook">
+        <religionTrait>ChristianReligion</religionTrait>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

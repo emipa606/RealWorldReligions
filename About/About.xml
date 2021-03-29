@@ -1,12 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Real World Religions</name>
-	<author>kuroneko871</author>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>0.19</li>
-	</supportedVersions>
-	<description>This is an addon to the Religions of Rimworld mod created by Castor (https://steamcommunity.com/sharedfiles/filedetails/?id=1645324706). It hopes to add at least the top most popular religions in our real world.
+  <name>Real World Religions (Continued)</name>
+  <packageId>Mlie.RealWorldReligions</packageId>
+  <author>kuroneko871</author>
+  <url>https://github.com/emipa606/RealWorldReligions</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Basarab.ReligionsOfRimworld</packageId>
+      <displayName>Religions of Rimworld</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1645324706</steamWorkshopUrl>
+      <downloadUrl>https://github.com/basarab1504/ReligionMod</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Basarab.ReligionsOfRimworld</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of kuroneko871s mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1655788206
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/RealWorldReligions][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+This is an addon to the Religions of Rimworld mod created by Castor (https://steamcommunity.com/sharedfiles/filedetails/?id=1645324706). It hopes to add at least the top most popular religions in our real world.
 	It is a WIP and so far only Christianism has been added. More will be added in the future.
-	</description>
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

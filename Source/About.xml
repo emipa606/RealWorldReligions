@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Real World Religions</name>
+  <author>kuroneko871</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>0.19</li>
+  </supportedVersions>
+  <description>This is an addon to the Religions of Rimworld mod created by Castor (https://steamcommunity.com/sharedfiles/filedetails/?id=1645324706). It hopes to add at least the top most popular religions in our real world.
+	It is a WIP and so far only Christianism has been added. More will be added in the future.
+	</description>
+</ModMetaData>
